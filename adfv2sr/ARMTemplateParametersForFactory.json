@@ -19,6 +19,12 @@
 		},
 		"Blob_ORC_properties_typeProperties_folderPath": {
 			"value": "input/orc"
+		},
+		"Blob_ORC_without_file_name_properties_typeProperties_fileName": {
+			"value": ""
+		},
+		"Blob_ORC_without_file_name_properties_typeProperties_folderPath": {
+			"value": "input/orc"
 		}
 	}
 }
