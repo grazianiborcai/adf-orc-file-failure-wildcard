@@ -1,0 +1,6 @@
+{
+	"name": "ZabkaPowerBI-IR",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"name": "SQLDW_ORC",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ZabkaDW",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlDWTable",
+		"typeProperties": {
+			"tableName": "[dbo].[table_orc]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
