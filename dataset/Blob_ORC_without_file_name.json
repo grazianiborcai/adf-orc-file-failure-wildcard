@@ -1,0 +1,18 @@
+{
+	"name": "Blob_ORC_without_file_name",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ZabkaBlob",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"typeProperties": {
+			"format": {
+				"type": "OrcFormat"
+			},
+			"fileName": "",
+			"folderPath": "input/orc"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
