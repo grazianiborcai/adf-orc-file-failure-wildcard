@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfv2sr"
+		},
+		"integrationRuntime_ZabkaPowerBI-IR": {
+			"value": "ZabkaPowerBI-IR"
+		},
+		"ZabkaBlob_connectionString": {
+			"value": ""
+		},
+		"ZabkaDW_connectionString": {
+			"value": ""
+		},
+		"Blob_ORC_properties_typeProperties_fileName": {
+			"value": "*.orc"
+		},
+		"Blob_ORC_properties_typeProperties_folderPath": {
+			"value": "input/orc"
+		}
+	}
+}
